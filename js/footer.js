@@ -46,9 +46,9 @@ const footerItems =
             <div class="row justify-content-left align-items-center p-0 m-0 hide-desktop footer-padding">
                 <div class="col-12">
                     <p>
-                        Carnegie Mellon University<br>
-                        5000 Forbes Avenue<br>
-                        Pittsburgh, PA 15213
+                        &copy; 2022 CMU JSA<br>
+                        Site Design: Catherine Wang<br>
+                        Site Development: Emma Tong
                     </p>
                 </div>
                 <div class="col-auto footer-social">
