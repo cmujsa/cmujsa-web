@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CMU JSA | Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <meta name="description" content="The official website for CMU JSA, the Japanese Student Association at Carnegie Mellon University." /> -->
+        <!-- <meta name="keywords" content="cmujsa, cmu-jsa, cmu jsa, carnegie mellon university, japanese student association, jsa, cmu, japan, japanese, carnegie, mellon, university, student, association, 日本学生会, カーネギーメロン大学, カーネギーメロン, 日本, 学生, 日本人生徒会, matsuri, 学生会" /> -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- LOCAL compiled and minified CSS -->
+        <!-- <link href="bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <!-- LOCAL compiled JavaScript -->
+        <!-- <script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script> -->
+        
+        <!-- Page Styles -->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Icons -->
+        <script src="https://kit.fontawesome.com/1c7a3c8215.js" crossorigin="anonymous"></script>
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Navigation Bar Script -->
+        <script>
+            $(function() {
+                $("#nav-placeholder").load("navigation.html");
+            });
+        </script>
+
+        <!-- Footer Script -->
+        <script>
+            $(function() {
+                $("#footer-placeholder").load("footer.html");
+            });
+        </script>
+
+        <!-- Calendar Month Script (updates the month in Calendar section) -->
+        <script>
+            window.onload = function(){
+                const monthsEnglish = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                const monthsJapanese = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"]
+                const d = new Date();
+                let monthEnglish = monthsEnglish[d.getMonth()];
+                let monthJapanese = monthsJapanese[d.getMonth()];
+                document.getElementById("calendarEnglish").innerHTML = "Upcoming " + monthEnglish + " Events*";
+                document.getElementById("calendarJapanese").innerHTML = monthJapanese + "月のイベント";
+            }
+        </script>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <!-- <div id="nav-placeholder"></div> -->
+        <script src="js/navbar.js"></script>
+
+        <!-- Page Content -->
+        <div class="container-fluid m-0 p-0">
+            <!-- Image Carousel -->
+            <div class="light-blue">
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img style="margin:auto;" class="d-block w-100" src="images/carousel/homepage_matsuri.png" alt="Crowd of people at Matsuri">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="margin:auto;" class="d-block w-100" src="images/carousel/homepage_totoro.png" alt="Totoro plushes">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="margin:auto;" class="d-block w-100" src="images/carousel/homepage_taiko.png" alt="Taiko drumming">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="margin:auto;" class="d-block w-100" src="images/carousel/homepage_groupphoto.png" alt="JSA 2021-22 Group Photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="margin:auto;" class="d-block w-100" src="images/carousel/homepage_schenley.png" alt="Schenley park hike">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="margin:auto;" class="d-block w-100" src="images/carousel/homepage_koto.png" alt="Person playing koto instrument">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="margin:auto;" class="d-block w-100" src="images/carousel/homepage_origami.png" alt="Origami animals">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="margin:auto;" class="d-block w-100" src="images/carousel/homepage_graduation.png" alt="JSA graduated seniors">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+            </div>
+
+            <!-- Intro Section -->
+            <div class="section-bg dark-blue intro">
+                <div class="section">
+                    <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-8">
+                        <h1>Welcome to the official website of the Japanese Student Association at CMU.</h1>
+                        <p>CMU JSA is a student organization dedicated to spreading awareness of Japanese culture throughout the student body, as well as the greater Pittsburgh community. To fulfill our objective, we host numerous events related to Japanese culture, the largest of which is Matsuri. To make these events a success, we often work with other student and local organizations.</p>
+                    </div>
+                    <div class="col-lg-4 hide-mobile">
+                        <img src="images/jsalogo1.png" class="img-fluid" alt="JSA Logo">
+                    </div>
+                    </div>
+                    <!-- Sponsor Logos -->
+                    <div class="row justify-content-center align-items-center sponsors">
+                        <div class="col-3 col-md">
+                            <img src="images/sponsors/atarashi-logo.png" class="img-fluid top-row" alt="Atarashi Logo">
+                        </div>
+                        <div class="col-3 col-md">
+                            <img src="images/sponsors/kungfutea-logo.png" class="img-fluid top-row" alt="Kung Fu Tea Logo">
+                        </div>
+                        <div class="col-3 col-md">
+                            <img src="images/sponsors/sushifuku-logo.png" class="img-fluid top-row" alt="Sushi Fuku Logo">
+                        </div>
+                        <div class="col-3 col-md">
+                            <img src="images/sponsors/kiku-logo.png" class="img-fluid top-row" alt="Kiku Japanese Restaurant Logo">
+                        </div>
+                        <div class="col-3 col-md">
+                            <img src="images/sponsors/teppanyakikyoto-logo.png" class="img-fluid" alt="Teppanyaki Kyoto Logo">
+                        </div>
+                        <div class="col-3 col-md">
+                            <img src="images/sponsors/cmumodernlang-logo.png" class="img-fluid" alt="CMU Modern Languages Department Logo">
+                        </div>
+                        <div class="col-3 col-md">
+                            <img src="images/sponsors/pittjsa-logo.png" class="img-fluid" alt="Pitt JSA Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Calendar Section -->
+            <div class="section-bg light-blue">
+                <div class="section">
+                    <h1 id="calendarEnglish"></h1>
+                    <h2 id="calendarJapanese"></h2>
+                    <iframe src="https://calendar.google.com/calendar/embed?src=c_lcsc400cif5rnlb87ibs97m1k8%40group.calendar.google.com&ctz=America%2FNew_York" 
+                            frameborder="0" scrolling="no" class="calendar"></iframe>
+                    <p class="center-text">*This calendar will be updated at the end of every month.</p>
+                </div>
+            </div>
+
+            <!-- Socials Section -->
+            <div class="section-bg dark-blue">
+                <div class="section">
+                    <h1>Where To Find Us</h1>
+                    <p>
+                        To get the latest news on what CMU JSA is up to, follow us on social media or add us to your google calendar! 
+                        We will be using these platforms to announce upcoming events, post photos, and even share interesting facts on Japanese culture.
+                    </p>
+                    <!-- Socials Icons -->
+                    <div class="row justify-content-center align-items-center social-icons">
+                        <div class="">
+                            <a href="https://www.instagram.com/cmujsa/" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-instagram fa-3x"></i>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://www.facebook.com/cmujsa" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-square-facebook fa-3x"></i>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://discord.com/invite/qYdru6D" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-discord"></i>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://calendar.google.com/calendar/u/0?cid=Y19sY3NjNDAwY2lmNXJubGI4N2liczk3bTFrOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-calendar fa-3x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <!-- <div id="footer-placeholder"></div> -->
+        <script src="js/footer.js"></script>
+    </body>
+</html>
