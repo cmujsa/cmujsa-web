@@ -47,7 +47,7 @@ body {
 }
 
 .night-blue {
-    background-color: #262c38;
+    background-color: #333746;
     color: #FFFFFF
 }
 
@@ -102,6 +102,12 @@ h3 {
     margin-bottom: 0px;
 }
 
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
 p {
     font-size: 16px;
 }
@@ -112,7 +118,7 @@ p.isolated-text {
     margin-bottom: 48px;
 }
 
-p.center-text {
+.center-text {
     text-align: center;
 }
 
@@ -145,6 +151,22 @@ a:hover {
 
 .sub-text {
     color: #6365A7;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
 }
 
 /* Home Page */
@@ -411,6 +433,46 @@ a.dropdown-item:hover {
     padding-right: 12px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.matsuri-sub-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.matsuri-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.matsuri-card img {
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.matsuri-card h4 {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.price {
+    text-align: center;
+    font-style: italic;
+}
+
+button.matsuri-button {
+    text-align: center !important; 
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    margin-top: 24px;
+}
+
+button:hover.matsuri-button {
+    background-color: #333746 !important;
 }
 
 /* Footer */
