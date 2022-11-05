@@ -51,6 +51,10 @@ body {
     color: #FFFFFF
 }
 
+.glowing-orange {
+    background-color: #ff7a3c;
+}
+
 .orange {
     color: #ff7a3c;
 }
@@ -73,6 +77,29 @@ body {
 .sub-section-padding {
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+.banner {
+    top: 62px;
+    padding: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    z-index: 1;
+    background: rgb(255,122,60);
+    background: linear-gradient(90deg, rgba(255,122,60,1) 0%, rgba(247,180,96,1) 100%);
+}
+
+.banner p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.banner a {
+    color: #FFFFFF;
+}
+
+.banner a:hover {
+    color: #cf561e;
 }
 
 /* Text */
@@ -129,6 +156,7 @@ p.bottom-text {
 
 a {
     color: #2F318D;
+    transition: .2s ease-in-out;
 }
 
 .dark-blue a {
@@ -153,6 +181,10 @@ a:hover {
     color: #6365A7;
 }
 
+.info {
+    line-height: 1.6;
+}
+
 .bold {
     font-weight: 700;
 }
@@ -166,7 +198,31 @@ a:hover {
 }
 
 .center {
-    text-align: center;
+    text-align: center !important;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.03); 
+}
+
+.divider {
+    width: 100%;
+    height: 0px;
+    border-bottom: 0.5px solid #FFFFFF;
+    margin: auto;
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 
 /* Home Page */
@@ -270,6 +326,9 @@ a.dropdown-item:hover {
 }
 
 /* Home Page */
+.carousel {
+    z-index: 0;
+}
 .calendar {
     border: 0;
     height: 600px;
@@ -468,11 +527,12 @@ button.matsuri-button {
     text-align: center !important; 
     color: #FFFFFF !important;
     border-color: #FFFFFF !important;
-    margin-top: 24px;
+    /* margin-top: 24px; */
+    border-radius: 0px !important;
 }
 
 button:hover.matsuri-button {
-    background-color: #333746 !important;
+    background-color:rgba(255, 255, 255, 0.2) !important;
 }
 
 /* Footer */
@@ -595,7 +655,7 @@ footer .footer-social p {
     }
 }
 
-@media screen and (max-width: 1201px) {
+@media screen and (max-width: 1218px) {
     .nav-item.hide-mid {
         display: none;
     }
