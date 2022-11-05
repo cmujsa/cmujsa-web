@@ -507,6 +507,14 @@ a.dropdown-item:hover {
     height: 100%;
 }
 
+.matsuri-card {
+    transition: all .2s ease-in-out; 
+}
+
+.matsuri-card:hover { 
+    transform: scale(1.1); 
+}
+
 .matsuri-card img {
     max-height: 100px;
     display: block;
