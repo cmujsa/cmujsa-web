@@ -509,6 +509,34 @@ a.dropdown-item:hover {
 
 /* Matsuri */
 
+.page-nav {
+    top: 62px;
+    min-height: 62px;
+    padding: 24px;
+    z-index: 1;
+    background: rgb(255,122,60);
+    background: linear-gradient(90deg, rgba(255,122,60,1) 0%, rgba(247,180,96,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.page-nav p, .page-nav a {
+    margin: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.page-nav a:hover {
+    color: #cf561e;
+}
+
+.matsuri .section-link span {
+    position: absolute;
+    top: -170px;
+}
+
 .matsuri h1 {
     margin-bottom: 36px;
 }
@@ -745,6 +773,11 @@ footer .footer-social p {
 
     .navbar .nav-item .dropdown-menu {
         width: 100%;
+    }
+
+    .matsuri .section-link span {
+        position: absolute;
+        top: -200px;
     }
 
     footer {
