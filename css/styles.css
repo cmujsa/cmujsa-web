@@ -193,6 +193,10 @@ a:hover {
     font-style: italic;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .left {
     text-align: left;
 }
@@ -201,7 +205,13 @@ a:hover {
     text-align: center !important;
 }
 
+.japanese {
+    font-weight: 500;
+}
+
 .centered-image {
+    width: 100%;
+    max-width: 400px;
     display: block;
     margin: 0 auto;
     margin-top: 24px;
@@ -350,6 +360,22 @@ a.dropdown-item:hover {
     margin-bottom: 24px;
 }
 
+.matsuri-sponsors {
+    margin-top: 48px;
+}
+
+.matsuri-sponsors img {
+    max-width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    transition: all .2s ease-in-out; 
+}
+
+.matsuri-sponsors img:hover {
+    transform: scale(1.1);
+}
 .top-row {
     margin-bottom: 24px;
 }
@@ -482,6 +508,14 @@ a.dropdown-item:hover {
 }
 
 /* Matsuri */
+
+.matsuri h1 {
+    margin-bottom: 36px;
+}
+
+.border {
+    border: 0.5px solid #FFFFFF
+}
 .matsuri-photos {
     padding-top: 32px;
     padding-bottom: 64px;
@@ -492,6 +526,10 @@ a.dropdown-item:hover {
     padding-right: 12px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.promo-photos {
+    margin-bottom: 32px;
 }
 
 .matsuri-sub-section {
@@ -524,6 +562,7 @@ a.dropdown-item:hover {
 .matsuri-card h4 {
     text-align: center;
     padding-top: 12px;
+    font-weight: 500;
 }
 
 .price {
@@ -643,6 +682,9 @@ footer .footer-social p {
 
 /* Large Mobile Screens and Up */
 @media screen and (min-width: 768px) {
+    .hide-mid {
+        display: none;
+    }
     .event-text-left {
         padding-right: 0px;
     }
