@@ -26,6 +26,10 @@ body {
     padding: 0px;
 }
 
+.no-top-padding {
+    padding-top: 36px !important;
+}
+
 .dark-blue {
     background-color: #2F318D;
     color: #FFFFFF;
@@ -233,6 +237,15 @@ a:hover {
     margin: auto;
     margin-top: 36px;
     margin-bottom: 36px;
+}
+
+.small-divider {
+    width: 100%;
+    height: 0px;
+    border-bottom: 0.5px solid #FFFFFF;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 /* Home Page */
@@ -599,16 +612,29 @@ a.dropdown-item:hover {
     font-style: italic;
 }
 
-button.matsuri-button {
+a.matsuri-button {
     text-align: center !important; 
     color: #FFFFFF !important;
-    border-color: #FFFFFF !important;
-    /* margin-top: 24px; */
+    border-color: #ff7a3c !important;
+    margin-top: 24px;
+    margin-bottom: 12px;
     border-radius: 0px !important;
+    padding: 12px;
 }
 
-button:hover.matsuri-button {
-    background-color:rgba(255, 255, 255, 0.2) !important;
+a.matsuri-big-button {
+    text-align: center !important; 
+    color: #FFFFFF !important;
+    border-color: #ff7a3c !important;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    border-radius: 0px !important;
+    padding: 12px;
+}
+
+a:hover.matsuri-button, a:hover.matsuri-big-button {
+    /* background-color:rgba(255, 255, 255, 0.2) !important; */
+    background-color:#ff7a3c !important;
 }
 
 /* Footer */
