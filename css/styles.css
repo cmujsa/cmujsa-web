@@ -737,9 +737,9 @@ footer .footer-social p {
 
 /* Large Mobile Screens and Up */
 @media screen and (min-width: 768px) {
-    .hide-mid {
+    /* .hide-mid {
         display: none;
-    }
+    } */
     .event-text-left {
         padding-right: 0px;
     }
