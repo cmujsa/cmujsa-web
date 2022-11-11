@@ -555,6 +555,15 @@ a.dropdown-item:hover {
     margin-bottom: 36px;
 }
 
+.matsuri h1 a {
+    color: #FFFFFF !important;
+    /* text-decoration: none; */
+}
+
+.matsuri h1 a:hover {
+    color: #ff7a3c !important;
+}
+
 .border {
     border: 0.5px solid #FFFFFF
 }
