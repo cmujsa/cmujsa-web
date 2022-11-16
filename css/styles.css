@@ -526,7 +526,7 @@ a.dropdown-item:hover {
 .page-nav {
     top: 62px;
     min-height: 62px;
-    padding: 24px;
+    padding: 12px;
     z-index: 1;
     background: rgb(255,122,60);
     background: linear-gradient(90deg, rgba(255,122,60,1) 0%, rgba(247,180,96,1) 100%);
@@ -767,6 +767,9 @@ footer .footer-social p {
     .event-image-left {
         padding-right: 0px;
     }
+    .page-nav {
+        position: sticky;
+    }
 }
 
 @media screen and (max-width: 1218px) {
@@ -814,6 +817,10 @@ footer .footer-social p {
     .matsuri .section-link span {
         position: absolute;
         top: -200px;
+    }
+
+    .page-nav {
+        position: static;
     }
 
     footer {
