@@ -248,6 +248,10 @@ a:hover {
     margin-bottom: 12px;
 }
 
+.performances .small-divider {
+    margin-bottom: 24px;
+}
+
 /* Home Page */
 
 a.navbar-brand {
