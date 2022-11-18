@@ -428,6 +428,10 @@ a.dropdown-item:hover {
     font-size: 48px;
 }
 
+.mem {
+    font-style: italic;
+}
+
 /* Accordion */
 
 .accordion-item {
