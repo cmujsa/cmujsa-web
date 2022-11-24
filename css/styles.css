@@ -222,12 +222,16 @@ a:hover {
     margin-bottom: 24px;
 }
 
-.grow { 
+.grow, .big-grow { 
     transition: all .2s ease-in-out; 
 }
 
 .grow:hover { 
     transform: scale(1.03); 
+}
+
+.big-grow:hover { 
+    transform: scale(1.12); 
 }
 
 .divider {
