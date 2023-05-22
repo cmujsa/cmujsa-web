@@ -6,7 +6,7 @@ const navbarItems =
         <a class="navbar-brand hide-desktop" href="https://www.cmujsa.com">
             <div class="wrap">
                 <div>
-                    <img src="images/jsalogo1.png" class="img-fluid nav-img" alt="JSA Logo">
+                    <img src="images/jsa-logo.png" class="img-fluid nav-img" alt="JSA Logo">
                 </div>
                 <div>
                     CMU JSA<br>日本学生会
@@ -24,7 +24,7 @@ const navbarItems =
                     <a class="nav-link" href="https://www.cmujsa.com">
                         <div class="wrap">
                             <div>
-                                <img src="images/jsalogo1.png" class="img-fluid nav-img" alt="JSA Logo">
+                                <img src="images/jsa-logo.png" class="img-fluid nav-img" alt="JSA Logo">
                             </div>
                             <div>
                                 CMU JSA<br>日本学生会

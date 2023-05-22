@@ -33,8 +33,8 @@ const footerItems =
                         </a>
                     </div>
                     <div class="bottom-half two-box footer-social d-flex justify-content-center align-items-center">
-                        <a href="mailto:hharriso@andrew.cmu.edu" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-regular fa-envelope"></i><p>hharriso@andrew.cmu.edu</p>
+                        <a href="mailto:agzheng+jsa@andrew.cmu.edu" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-regular fa-envelope"></i><p>agzheng@andrew.cmu.edu</p>
                         </a>
                     </div>
                 </li>
@@ -62,8 +62,8 @@ const footerItems =
                     </a>
                 </div>
                 <div class="col-12 footer-social">
-                    <a href="mailto:hharriso@andrew.cmu.edu" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-regular fa-envelope"></i><p>hharriso@andrew.cmu.edu</p>
+                    <a href="mailto:agzheng+jsa@andrew.cmu.edu" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-regular fa-envelope"></i><p>agzheng@andrew.cmu.edu</p>
                     </a>
                 </div>
             </div>

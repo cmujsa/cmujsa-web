@@ -149,13 +149,13 @@ p.isolated-text {
     margin-bottom: 48px;
 }
 
-.center-text {
-    text-align: center;
-}
-
 p.bottom-text {
     margin-top: 48px;
     margin-bottom: 0px;
+}
+
+.center-text {
+    text-align: center !important;
 }
 
 a {
