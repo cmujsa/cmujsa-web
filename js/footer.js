@@ -9,7 +9,7 @@ const footerItems =
                 <li class="nav-item first two-box">
                     <div class="footer-address d-flex justify-content-center align-items-center">
                         <p>
-                            &copy; 2022 CMU JSA<br>
+                            &copy; 2023 CMU JSA<br>
                             Site Design: Catherine Wang<br>
                             Site Development: Emma Tong
                         </p>
@@ -46,7 +46,7 @@ const footerItems =
             <div class="row justify-content-left align-items-center p-0 m-0 hide-desktop footer-padding">
                 <div class="col-12">
                     <p>
-                        &copy; 2022 CMU JSA<br>
+                        &copy; 2023 CMU JSA<br>
                         Site Design: Catherine Wang<br>
                         Site Development: Emma Tong
                     </p>
@@ -78,7 +78,7 @@ const oldFooter =
 Carnegie Mellon University<br>
 5000 Forbes Avenue<br>
 Pittsburgh, PA 15213<br>
-&copy; 2022 CMU JSA
+&copy; 2023 CMU JSA
 `
 
 document.body.insertAdjacentHTML("beforeend", footerItems);
