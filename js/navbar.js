@@ -45,6 +45,7 @@ const navbarItems =
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="https://www.cmujsa.com/cultural">Cultural Events<br>文化イベント</a></li>
                         <li><a class="dropdown-item" href="https://www.cmujsa.com/matsuri">Matsuri<br>祭り</a></li>
+                        <li><a class="dropdown-item" href="https://www.cmujsa.com/undoukai">Undoukai<br>運動会</a></li>
                         <li><a class="dropdown-item" href="https://www.cmujsa.com/booth">Booth<br>ブース</a></li>
                     </ul>
                 </li>
