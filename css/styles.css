@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
@@ -14,6 +15,11 @@ body {
     background-color: #FFFFFF;
     color: #FFFFFF;
     font-family: 'Lora', serif;
+}
+
+div.matsuri-24 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 }
 
 
@@ -46,12 +52,14 @@ body {
 }
 
 .dusk-blue {
-    background-color: #4c5b8d;
+    background-color: #353E51;
+    /* background-color: #4c5b8d; */
     color: #FFFFFF;
 }
 
 .night-blue {
-    background-color: #333746;
+    background-color: #ff7258;
+    /* background-color: #333746; */
     color: #FFFFFF
 }
 
@@ -657,6 +665,22 @@ a:hover.matsuri-button, a:hover.matsuri-big-button {
     /* background-color:rgba(255, 255, 255, 0.2) !important; */
     background-color:#ff7a3c !important;
 }
+
+/* Undoukai */
+
+/* .undoukai-photos div {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.undoukai-photos div div div {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+} */
 
 /* Footer */
 footer {
