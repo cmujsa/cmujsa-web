@@ -524,6 +524,26 @@ a.dropdown-item:hover {
 
 /* Undoukai */
 
+.icon-card {
+    transition: all .2s ease-in-out; 
+}
+
+.icon-card:hover { 
+    transform: scale(1.1); 
+}
+
+.icon-card img {
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-card h4 {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 500;
+}
+
 /* Footer */
 footer {
     background-color: #FFFFFF;
