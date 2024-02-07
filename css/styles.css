@@ -70,8 +70,8 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     z-index: 1;
-    background: rgb(255,122,60);
-    background: linear-gradient(90deg, rgba(255,122,60,1) 0%, rgba(247,180,96,1) 100%);
+    background: #ff7258;
+    background: linear-gradient(90deg, #ff7258 0%, #dd9e93 100%);
 }
 
 .banner p {
@@ -84,7 +84,7 @@ body {
 }
 
 .banner a:hover {
-    color: #cf561e;
+    color: #353E51;
 }
 
 /* Text */
