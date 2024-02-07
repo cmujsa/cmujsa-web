@@ -1,0 +1,142 @@
+/* Matsuri Fall 2022 */
+
+.dusk-blue {
+    background-color: #4c5b8d;
+    color: #FFFFFF;
+}
+
+.night-blue {
+    background-color: #333746;
+    color: #FFFFFF
+}
+
+.glowing-orange {
+    background-color: #ff7a3c;
+}
+
+.orange {
+    color: #ff7a3c;
+}
+
+.page-nav {
+    top: 62px;
+    min-height: 62px;
+    padding: 12px;
+    z-index: 1;
+    background: rgb(255,122,60);
+    background: linear-gradient(90deg, rgba(255,122,60,1) 0%, rgba(247,180,96,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.page-nav p, .page-nav a {
+    margin: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.page-nav a:hover {
+    color: #cf561e;
+}
+
+.matsuri .section-link span {
+    position: absolute;
+    top: -170px;
+}
+
+.matsuri h1 {
+    margin-bottom: 36px;
+}
+
+.matsuri h1 a {
+    color: #FFFFFF !important;
+    /* text-decoration: none; */
+}
+
+.matsuri h1 a:hover {
+    color: #ff7a3c !important;
+}
+
+.border {
+    border: 0.5px solid #FFFFFF
+}
+.matsuri-photos {
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.matsuri-photos div {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.promo-photos {
+    margin-bottom: 32px;
+}
+
+.matsuri-sub-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.matsuri-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.matsuri-card {
+    transition: all .2s ease-in-out; 
+}
+
+.matsuri-card:hover { 
+    transform: scale(1.1); 
+}
+
+.matsuri-card img {
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.matsuri-card h4 {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 500;
+}
+
+.price {
+    text-align: center;
+    font-style: italic;
+}
+
+a.matsuri-button {
+    text-align: center !important; 
+    color: #FFFFFF !important;
+    border-color: #ff7a3c !important;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    border-radius: 0px !important;
+    padding: 12px;
+}
+
+a.matsuri-big-button {
+    text-align: center !important; 
+    color: #FFFFFF !important;
+    border-color: #ff7a3c !important;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    border-radius: 0px !important;
+    padding: 12px;
+}
+
+a:hover.matsuri-button, a:hover.matsuri-big-button {
+    /* background-color:rgba(255, 255, 255, 0.2) !important; */
+    background-color:#ff7a3c !important;
+}

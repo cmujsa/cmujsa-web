@@ -9,7 +9,7 @@ const footerItems =
                 <li class="nav-item first two-box">
                     <div class="footer-address d-flex justify-content-center align-items-center">
                         <p>
-                            &copy; 2023 CMU JSA<br>
+                            &copy; 2024 CMU JSA<br>
                             Site Design: Catherine Wang<br>
                             Site Development: Emma Tong
                         </p>
@@ -46,7 +46,7 @@ const footerItems =
             <div class="row justify-content-left align-items-center p-0 m-0 hide-desktop footer-padding">
                 <div class="col-12">
                     <p>
-                        &copy; 2023 CMU JSA<br>
+                        &copy; 2024 CMU JSA<br>
                         Site Design: Catherine Wang<br>
                         Site Development: Emma Tong
                     </p>

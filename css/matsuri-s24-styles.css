@@ -1,0 +1,222 @@
+/* Matsuri Spring 2024 */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+
+.bgc-0 {
+    background-color: #FFFFFF;
+    color: #353E51;
+    border-color: #353E51;
+}
+
+.bgc-0 h1 a, h2 a {
+    color: #ff7258 !important;
+    /* text-decoration: none; */
+}
+
+.bgc-0 h1 a:hover, h2 a:hover {
+    color: #dd9e93 !important;
+}
+
+.bgc-1 {
+    background-color: #353E51;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.bgc-2 {
+    background-color: #ff7258;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.gradient-1, .gradient-2 {
+    background: #ff7258;
+    color: #FFFFFF;
+    /* font-weight: 500; */
+    border-color: #FFFFFF;
+}
+
+.gradient-1 {
+    background: linear-gradient(90deg, #ff7258 0%, #dd9e93 100%);
+}
+
+.gradient-2 {
+    background: linear-gradient(180deg, #ff7258 0%, #dd9e93 100%);
+}
+
+div.matsuri-s24 {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 400;
+}
+
+.matsuri-s24 p {
+    font-size: 18px;
+}
+
+.matsuri-s24 .highlight {
+    background-color: #ff7258;
+}
+
+.divider, .small-divider {
+    border-bottom: 0.5px solid;
+}
+
+.section-divider {
+    display: block;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.page-nav {
+    top: 62px;
+    min-height: 62px;
+    padding: 12px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.page-nav p, .page-nav a {
+    margin: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.page-nav a:hover {
+    color: #353E51;
+}
+
+.matsuri .section-link span {
+    position: absolute;
+    top: -170px;
+}
+
+.matsuri .info-box {
+    padding: 24px;
+}
+
+.matsuri .border-left {
+    border-left: 0.5px solid;
+}
+
+.matsuri .border-right {
+    border-right: 0.5px solid;
+}
+
+.matsuri-s24 h1 {
+    margin-bottom: 36px;
+    font-weight: 700;
+}
+
+.matsuri-s24 h2 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 150%;
+}
+
+.matsuri-s24 .small-text {
+    font-size: 18px !important;
+}
+
+.border {
+    border: 0.5px solid;
+}
+
+.matsuri-photos {
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.matsuri-photos div {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.promo-photos {
+    margin-bottom: 32px;
+}
+
+.matsuri-sub-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.matsuri-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.matsuri-text-card .highlight {
+    padding: 12px;
+}
+
+.matsuri-card {
+    transition: all .2s ease-in-out; 
+}
+
+.matsuri-card:hover { 
+    transform: scale(1.1); 
+}
+
+.matsuri-card img {
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.matsuri-card .text {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 500;
+}
+
+.price {
+    text-align: center;
+    font-style: italic;
+}
+
+a.matsuri-button {
+    text-align: center !important; 
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    background-color: #353E51 !important;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    border-radius: 0px !important;
+    padding: 12px;
+}
+
+/* a.matsuri-big-button {
+    text-align: center !important; 
+    color: #FFFFFF !important;
+    border-color: #ff7a3c !important;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    border-radius: 0px !important;
+    padding: 12px;
+} */
+
+a:hover.matsuri-button, a:hover.matsuri-big-button {
+    color: #FFFFFF !important;
+    border-color: #353E51 !important;
+    background-color:#353e5186 !important;
+}
+
+div.transition {
+    background: #353E51;
+    background: linear-gradient(180deg, #353E51 0%, #ff7258 100%);
+    /* background-color: rgb(255,122,60);
+    background: linear-gradient(90deg, rgba(255,122,60,1) 0%, rgba(247,180,96,1) 100%); */
+    padding: 50px;
+}
