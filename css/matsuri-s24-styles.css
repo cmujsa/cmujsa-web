@@ -61,13 +61,13 @@ div.matsuri-s24 {
 }
 
 .section-divider {
-    display: block;
-	overflow-x: hidden;
+    overflow-x: hidden;
 	width: 100%;
+    display: block;
 }
 
 .flip {
-    transform: rotate(180deg);
+    transform: translateY(1px) rotate(180deg);
 }
 
 .page-nav {
@@ -124,6 +124,23 @@ div.matsuri-s24 {
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 0px;
+}
+
+.matsuri-s24 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* .matsuri-s24 h4.perf {
+    text-align: left;
+    margin-bottom: 18px;
+    line-height: 200%;
+} */
+
+.matsuri-s24 .italic {
+    font-style: italic;
+    font-weight: 400;
 }
 
 .matsuri-s24 .small-text {
@@ -221,8 +238,7 @@ a:hover.matsuri-button, a:hover.matsuri-big-button {
 
 .desc .highlight {
     color: #FFFFFF;
-    padding: 6px;
-    margin-right: 6px;
+    padding: 2px 6px 3px 6px; 
     font-weight: 500;
 }
 

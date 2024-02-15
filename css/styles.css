@@ -175,7 +175,7 @@ a:hover {
 }
 
 .italic {
-    font-style: italic;
+    font-style: italic !important;
 }
 
 .underline {
