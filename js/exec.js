@@ -27,10 +27,9 @@ ExecMember.prototype.execCard = function () {
 let htmlText = "";
 
 function addExecMember(exec) {
-    console.log(exec.fullName());
     htmlText += exec.execCard();
 }
 
 execMembers.forEach(addExecMember);
 
-document.getElementById("execCards").innerHTML = htmlText;
+document.getElementById("exec-cards").innerHTML = htmlText;

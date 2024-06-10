@@ -1,7 +1,6 @@
 // EDIT THE FOLLOWING TWO VARIABLES WHEN A NEW BOARD IS ELECTED
-
-const mainContactName = "May Sonoda";
-const mainContactAndrewID = "maysonod";
+const mainContactName = "May Sonoda"; // Will be used in Q&A
+const mainContactAndrewID = "maysonod"; // Will be used in Q&A and footer
 
 // DON'T EDIT THIS
 class ExecMember{
@@ -92,12 +91,12 @@ execMembers.push(new ExecMember(
 ));
 
 
-// DON'T MODIFY BELOW
+// DON'T EDIT BELOW
 const currentYear = new Date().getFullYear();
-Array.from(document.getElementsByClassName("mainContactName")).forEach(function (element) {
+Array.from(document.getElementsByClassName("main-contact-name")).forEach(function (element) {
     element.innerHTML = mainContactName;
 });
-Array.from(document.getElementsByClassName("mainContactAndrewID")).forEach(function (element) {
+Array.from(document.getElementsByClassName("main-contact-andrewID")).forEach(function (element) {
     element.innerHTML = mainContactAndrewID + "@andrew.cmu.edu";
     element.href = "mailto:" + mainContactAndrewID + "+jsa@andrew.cmu.edu";
 });
