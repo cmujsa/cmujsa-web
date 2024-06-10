@@ -21,11 +21,10 @@
         
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
     </head>
     <body>
        <!-- Navigation Bar -->
-       <script src="js/navbar.js"></script>
+       <div id="navbar"></div>
 
        <!-- Page Content -->
         <div class="container-fluid m-0 p-0">
@@ -45,14 +44,13 @@
                             <h3 class="accordion-header" id="heading1">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
                                    <div>
-                                        What's new for JSA in the 2023-2024 school year?
+                                        What's new for JSA in the 2024-2025 school year?
                                     </div>
                                 </button>
                             </h3>
                             <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faq-accordian">
                                     <div class="accordion-body answer-text">
-                                        This year, Matsuri will be hosted in the winter! 
-                                        This is because JSA will be hosting an Undoukai, or Sports Day, in the fall, and a Formal in the spring!
+                                        More information coming soon!
                                     </div>
                             </div>
                         </div>
@@ -86,7 +84,8 @@
                                 <div class="accordion-body answer-text">                                
                                     Typically, we hold member recruiting during the first two weeks of the fall semester. 
                                     However, if you happen to miss the recruiting season, don't worry! We also enroll members on a rolling basis. 
-                                    Please email Alison Zheng (<a href="mailto:agzheng+jsa@andrew.cmu.edu">agzheng@andrew.cmu.edu</a>) for more information on how to become a JSA member.
+                                    Please email <span class="main-contact-name"></span> (<a class="main-contact-andrewID"></a>) 
+                                    for more information on how to become a JSA member.
                                 </div>
                             </div>
                         </div>
@@ -101,7 +100,8 @@
                             </h3>
                             <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faq-accordian">
                                 <div class="accordion-body answer-text">
-                                    Please email Alison Zheng (<a href="mailto:agzheng+jsa@andrew.cmu.edu">agzheng@andrew.cmu.edu</a>) to join our mailing list!
+                                    Please email <span class="main-contact-name"></span> (<a class="main-contact-andrewID"></a>) 
+                                    to join our mailing list!
                                 </div>
                             </div>
                         </div>
@@ -196,9 +196,13 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Footer -->
-            <script src="js/footer.js"></script>
         </div>
+        <!-- Footer -->
+        <div id="footer"><div/>
+
+        <!-- Scripts -->
+        <script src="js/info.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/footer.js"></script>
     </body>
 </html>

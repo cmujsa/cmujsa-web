@@ -9,7 +9,7 @@ const footerItems =
                 <li class="nav-item first two-box">
                     <div class="footer-address d-flex justify-content-center align-items-center">
                         <p>
-                            &copy; 2024 CMU JSA<br>
+                            &copy; ${currentYear} CMU JSA<br>
                             Site Design: Catherine Wang<br>
                             Site Development: Emma Tong
                         </p>
@@ -33,8 +33,8 @@ const footerItems =
                         </a>
                     </div>
                     <div class="bottom-half two-box footer-social d-flex justify-content-center align-items-center">
-                        <a href="mailto:agzheng+jsa@andrew.cmu.edu" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-regular fa-envelope"></i><p>agzheng@andrew.cmu.edu</p>
+                        <a href="mailto:${mainContactAndrewID}+jsa@andrew.cmu.edu" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-regular fa-envelope"></i><p>${mainContactAndrewID}@andrew.cmu.edu</p>
                         </a>
                     </div>
                 </li>
@@ -46,7 +46,7 @@ const footerItems =
             <div class="row justify-content-left align-items-center p-0 m-0 hide-desktop footer-padding">
                 <div class="col-12">
                     <p>
-                        &copy; 2024 CMU JSA<br>
+                        &copy; ${currentYear} CMU JSA<br>
                         Site Design: Catherine Wang<br>
                         Site Development: Emma Tong
                     </p>
@@ -62,8 +62,8 @@ const footerItems =
                     </a>
                 </div>
                 <div class="col-12 footer-social">
-                    <a href="mailto:agzheng+jsa@andrew.cmu.edu" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-regular fa-envelope"></i><p>agzheng@andrew.cmu.edu</p>
+                    <a href="mailto:${mainContactAndrewID}+jsa@andrew.cmu.edu" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-regular fa-envelope"></i><p>${mainContactAndrewID}@andrew.cmu.edu</p>
                     </a>
                 </div>
             </div>
@@ -73,12 +73,14 @@ const footerItems =
 <!-- FOOTER END -->
 `
 
-const oldFooter = 
-`
-Carnegie Mellon University<br>
-5000 Forbes Avenue<br>
-Pittsburgh, PA 15213<br>
-&copy; 2023 CMU JSA
-`
+// const oldFooter = 
+// `
+// Carnegie Mellon University<br>
+// 5000 Forbes Avenue<br>
+// Pittsburgh, PA 15213<br>
+// &copy; 2023 CMU JSA
+// `
 
-document.body.insertAdjacentHTML("beforeend", footerItems);
+// document.body.insertAdjacentHTML("beforeend", footerItems);
+
+document.getElementById("footer").innerHTML = footerItems;

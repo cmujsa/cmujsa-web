@@ -21,24 +21,10 @@
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-        <!-- Navigation Bar Script -->
-        <script>
-            $(function() {
-                $("#nav-placeholder").load("navigation.html");
-            });
-        </script>
-
-        <!-- Footer Script -->
-        <script>
-            $(function() {
-                $("#footer-placeholder").load("footer.html");
-            });
-        </script>
     </head>
     <body>
         <!-- Navigation Bar -->
-        <script src="js/navbar.js"></script>
+        <div id="navbar"></div>
 
         <!-- Page Content -->
         <div class="container-fluid m-0 p-0">
@@ -58,136 +44,7 @@
                 <div class="section">
                     <div class="sub-section">
                         <h1 class="section-link"><span id="exec"></span>JSA Executive Board</h1>
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center align-items-top">
-                            <div class="col">
-                                <div class="member-card">
-                                    <img class="w-100 member-photo" src="images/members/members-alison-2324.png" alt="Photo of Alison Zheng">
-                                    <h4 class="member-name">
-                                        Alison Zheng
-                                    </h4>
-                                    <p class="member-desc">
-                                        Co-President<br>
-                                        (any pronouns)<br>
-                                        Member Since Sept 2022<br>
-                                        <a class="member-email" href="mailto:agzheng+jsa@andrew.cmu.edu"> 
-                                            agzheng@andrew.cmu.edu
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="member-card">
-                                    <img class="w-100 member-photo" src="images/members/members-joseph-2324.png" alt="Photo of Joseph Hsu">
-                                    <h4 class="member-name">
-                                        Joseph Hsu
-                                    </h4>
-                                    <p class="member-desc">
-                                        Co-President<br>
-                                        (he/him)<br>
-                                        Member Since Sept 2020<br>
-                                        <a class="member-email" href="mailto:josephhs+jsa@andrew.cmu.edu"> 
-                                            josephhs@andrew.cmu.edu
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="member-card">
-                                    <img class="w-100 member-photo" src="images/members/members-stephen-2324.png" alt="Photo of Stephen Chien">
-                                    <h4 class="member-name">
-                                        Stephen Chien
-                                    </h4>
-                                    <p class="member-desc">
-                                        Vice President of Internal Affairs<br>
-                                        (he/him)<br>
-                                        Member Since Sept 2022<br>
-                                        <a class="member-email" href="mailto:shchien+jsa@andrew.cmu.edu"> 
-                                            shchien@andrew.cmu.edu
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="member-card">
-                                    <img class="w-100 member-photo" src="images/members/members-hanna-2324.png" alt="Photo of Hanna Luo">
-                                    <h4 class="member-name">
-                                        Hanna Luo
-                                    </h4>
-                                    <p class="member-desc">
-                                        Design Chair<br>
-                                        (she/her)<br>
-                                        Member Since Sept 2020<br>
-                                        <a class="member-email" href="mailto:yihanl+jsa@andrew.cmu.edu"> 
-                                            yihanl@andrew.cmu.edu
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="member-card">
-                                    <img class="w-100 member-photo" src="images/members/members-stanley-2324.png" alt="Photo of Stanley Duong">
-                                    <h4 class="member-name">
-                                        Stanley Duong
-                                    </h4>
-                                    <p class="member-desc">
-                                        Fundraising Co-Chair<br>
-                                        (he/him)<br>
-                                        Member Since Sept 2022<br>
-                                        <a class="member-email" href="mailto:slduong+jsa@andrew.cmu.edu"> 
-                                            slduong@andrew.cmu.edu
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="member-card">
-                                    <img class="w-100 member-photo" src="images/members/2223/members_nami_2223.png" alt="Photo of Nami Numoto">
-                                    <h4 class="member-name">
-                                        Nami Numoto
-                                    </h4>
-                                    <p class="member-desc">
-                                        Fundraising Co-Chair<br>
-                                        (she/her)<br>
-                                        Member Since Sept 2021<br>
-                                        <a class="member-email" href="mailto:mnumoto+jsa@andrew.cmu.edu"> 
-                                            mnumoto@andrew.cmu.edu
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- REPLACE ONCE FRESH REPS KNOWN -->
-                            <div class="col">
-                                <div class="member-card">
-                                    <img class="w-100 member-photo" src="images/members/members-dillon-2324.png" alt="Photo of Dillon Shelton">
-                                    <h4 class="member-name">
-                                        Dillon Shelton
-                                    </h4>
-                                    <p class="member-desc">
-                                        Cultural Co-Chair<br>
-                                        (he/him)<br>
-                                        Member since Sept 2023<br>
-                                        <a class="member-email" href="mailto:dillonsh+jsa@andrew.cmu.edu"> 
-                                            dillonsh@andrew.cmu.edu
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="member-card">
-                                    <img class="w-100 member-photo" src="images/members/members-may-2324.png" alt="Photo of May Sonoda">
-                                    <h4 class="member-name">
-                                        May Sonoda
-                                    </h4>
-                                    <p class="member-desc">
-                                        Cultural Co-Chair<br>
-                                        (he/him)<br>
-                                        Member since Sept 2023<br>
-                                        <a class="member-email" href="mailto:maysonod+jsa@andrew.cmu.edu"> 
-                                            maysonod@andrew.cmu.edu
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
+                        <div id="exec-cards" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center align-items-top">
                         </div>
                     </div>
                     <div class="sub-section-padding">
@@ -217,9 +74,14 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Footer -->
-            <script src="js/footer.js"></script>
         </div>
+        <!-- Footer -->
+        <div id="footer"><div/>
+
+        <!-- Scripts -->
+        <script src="js/info.js"></script>
+        <script src="js/exec.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/footer.js"></script>
     </body>
 </html>
