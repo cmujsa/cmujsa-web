@@ -60,4 +60,4 @@ const navbarItems =
 <!-- Navigation Bar END -->
 `
 
-document.body.insertAdjacentHTML("afterbegin", navbarItems);
+document.getElementById("navbar").innerHTML = navbarItems;
