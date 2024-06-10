@@ -1,6 +1,6 @@
 // EDIT THE FOLLOWING TWO VARIABLES WHEN A NEW BOARD IS ELECTED
-const mainContactName = "May Sonoda"; // Will be used in Q&A
-const mainContactAndrewID = "maysonod"; // Will be used in Q&A and footer
+const mainContactName = "May Sonoda"; // Will be used in FAQ
+const mainContactAndrewID = "maysonod"; // Will be used in FAQ and footer
 
 // DON'T EDIT THIS
 class ExecMember{
