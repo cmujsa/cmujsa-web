@@ -12,6 +12,7 @@ Initially designed by Catherine Wang ('23) and developed by Emma Tong ('25) in t
     - Move old executive board photos to `images/members/old`
     - Upload new executive board photos to `images/members/andrewID.png`, replacing `andrewID` with the andrew ID of the executive board member
       - You will have to manually add the framing design in a graphic design program (e.g. Figma, Illustrator)
+- In `index.html`, change the Google Calendar link
 - In `faq.html`, look through and update the FAQ for the new school year
 
 ## Directions for Updating the Website for Matsuri
