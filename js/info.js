@@ -1,4 +1,4 @@
-// EDIT THE FOLLOWING TWO VARIABLES WHEN A NEW BOARD IS ELECTED
+// EDIT THE FOLLOWING TWO VARIABLES WHEN A NEW EXEC BOARD IS ELECTED
 const mainContactName = "May Sonoda"; // Will be used in FAQ
 const mainContactAndrewID = "maysonod"; // Will be used in FAQ and footer
 

@@ -1,3 +1,4 @@
+// DON'T EDIT THIS
 class MatsuriPhotoGallery{
     constructor(year, folderName, photoNames, extension, hasBanner, largePhotos) {
         this.year = year; // Year of the fall semester
@@ -77,6 +78,7 @@ galleryYears.push(new MatsuriPhotoGallery(
     false
 ));
 
+// DON'T EDIT BELOW
 MatsuriPhotoGallery.prototype.getPhotos = function () {
     let photosHtmlText = "";
     const folderName = this.folderName;
@@ -92,7 +94,6 @@ MatsuriPhotoGallery.prototype.getPhotos = function () {
     }
     return photosHtmlText;
 }
-
 
 MatsuriPhotoGallery.prototype.createGallery = function (i) {
     return `
