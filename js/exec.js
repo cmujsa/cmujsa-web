@@ -1,7 +1,18 @@
-console.log("test");
 ExecMember.prototype.fullName = function () {
     return this.firstName + " " + this.lastName;
 }
+
+// function copyEmail(andrewID) {
+//     if (navigator.clipboard) {
+//         navigator.clipboard.writeText(andrewID + "+jsa@andrew.cmu.edu")
+//         .then(() => {
+//             console.log('Text copied to clipboard:', andrewID);
+//         })
+//         .catch(err => {
+//             console.error('Failed to copy text:', err);
+//         });
+//     }
+// }
 
 ExecMember.prototype.execCard = function () {
     return `
@@ -33,3 +44,10 @@ function addExecMember(exec) {
 execMembers.forEach(addExecMember);
 
 document.getElementById("exec-cards").innerHTML = htmlText;
+
+// Attempt at copy email tooltip that doesn't work
+
+{/* <button class="member-email email-tooltip" onClick="() => copyEmail(${this.andrewID})"> 
+${this.andrewID}@andrew.cmu.edu
+<span class="email-tooltiptext">Copy to clipboard</span>
+</button> */}
