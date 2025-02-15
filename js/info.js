@@ -51,7 +51,7 @@ execMembers.push(new ExecMember(
     "she/her",
     "Sept 2022",
     "eyatabe",
-    false
+    true
 ));
 execMembers.push(new ExecMember(
     "Richard",
