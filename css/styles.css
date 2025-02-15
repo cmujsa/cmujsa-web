@@ -2,10 +2,11 @@
 
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
-	/* .navbar .nav-item .dropdown-menu{ display: none; }
+    /* .navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{   }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; } */
 }
+
 /* ============ desktop view .end// ============ */
 
 
@@ -91,19 +92,19 @@ body {
 h1 {
     font-size: 24px;
     font-weight: 400;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 24px;
 }
 
 .intro h1 {
-    text-align: left; 
+    text-align: left;
 }
 
 h2 {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 10px;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 12px;
 }
 
@@ -207,16 +208,17 @@ a:hover {
     margin-bottom: 24px;
 }
 
-.grow, .big-grow { 
-    transition: all .2s ease-in-out; 
+.grow,
+.big-grow {
+    transition: all .2s ease-in-out;
 }
 
-.grow:hover { 
-    transform: scale(1.03); 
+.grow:hover {
+    transform: scale(1.03);
 }
 
-.big-grow:hover { 
-    transform: scale(1.12); 
+.big-grow:hover {
+    transform: scale(1.12);
 }
 
 .divider {
@@ -323,7 +325,7 @@ a.dropdown-item:hover {
 
 .navbar .nav-item .dropdown-menu {
     width: 200px;
-    margin: 0px; 
+    margin: 0px;
     padding: 0px;
     border-radius: 0px;
     border-right: 0.5px solid #2F318D;
@@ -345,6 +347,7 @@ a.dropdown-item:hover {
 .carousel {
     z-index: 0;
 }
+
 .calendar {
     border: 0;
     height: 600px;
@@ -378,12 +381,13 @@ a.dropdown-item:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 24px;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 .matsuri-sponsors img:hover {
     transform: scale(1.1);
 }
+
 .top-row {
     margin-bottom: 24px;
 }
@@ -456,7 +460,8 @@ a.dropdown-item:hover {
     transform: rotate(0deg);
 }
 
-.accordion-button::after, .accordion-button:not(.collapsed)::after {
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%232f318d'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
@@ -513,6 +518,49 @@ a.dropdown-item:hover {
     margin-bottom: 24px;
 }
 
+/* .email-tooltip {
+    position: relative;
+    display: inline-block;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.email-tooltip .email-tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #6365a7c8;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -70px;
+
+    Fade in tooltip - takes 0.5 second to go from 0% to 100% opac:
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.email-tooltip .email-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #6365a7c8 transparent transparent transparent;
+}
+
+.email-tooltip:hover .email-tooltiptext {
+    visibility: visible;
+    opacity: 1;
+} */
+
 /* Cultural Events */
 .event {
     padding-top: 32px;
@@ -547,11 +595,11 @@ a.dropdown-item:hover {
 /* Undoukai */
 
 .icon-card {
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
-.icon-card:hover { 
-    transform: scale(1.1); 
+.icon-card:hover {
+    transform: scale(1.1);
 }
 
 .icon-card img {
@@ -636,15 +684,19 @@ footer .footer-social p {
     .hide-desktop {
         display: none;
     }
+
     .navbar {
         padding: 0;
     }
-    .navbar .nav-item:hover .dropdown-menu { 
+
+    .navbar .nav-item:hover .dropdown-menu {
         display: block;
     }
+
     a.unclickable {
         pointer-events: none;
     }
+
     .navbar .nav-item .dropdown-menu {
         display: none;
     }
@@ -669,24 +721,33 @@ footer .footer-social p {
     .hide-desktop-mid {
         display: none;
     }
+
     .event-text-left {
         padding-right: 0px;
     }
-    .event-text-left h3, .event-text-left p {
+
+    .event-text-left h3,
+    .event-text-left p {
         padding-right: 48px;
     }
+
     .event-text-right {
         padding-left: 0px;
     }
-    .event-text-right h3, .event-text-right p {
+
+    .event-text-right h3,
+    .event-text-right p {
         padding-left: 48px;
     }
+
     .event-image-right {
         padding-left: 0px;
     }
+
     .event-image-left {
         padding-right: 0px;
     }
+
     .page-nav {
         position: sticky;
     }
@@ -696,6 +757,7 @@ footer .footer-social p {
     .nav-item.hide-mid {
         display: none;
     }
+
     .nav-item.first-mid {
         border-left: 0.5px solid #2F318D;
     }
@@ -706,10 +768,13 @@ footer .footer-social p {
     .hide-mobile {
         display: none;
     }
+
     .navbar {
         border: none;
     }
-    .nav-item, .nav-link {
+
+    .nav-item,
+    .nav-link {
         width: 100%;
         background-color: #FFFFFF;
         margin: 0px;
@@ -717,15 +782,18 @@ footer .footer-social p {
         color: #2F318D;
         border: none;
     }
+
     /* .navbar .nav-item:active .dropdown-menu { 
         display: block;
     } */
     .social-icons div {
         width: 20%;
     }
+
     .social-icons i {
         font-size: 40px;
     }
+
     .dropdown-menu li {
         width: 100%;
     }
@@ -773,7 +841,7 @@ footer .footer-social p {
         padding: 7px 0px;
         padding-right: 21px;
     }
-    
+
 }
 
 /* Large Mobile Screens and Down */
@@ -781,14 +849,19 @@ footer .footer-social p {
     .hide-mobile-mid {
         display: none;
     }
+
     .event {
         padding-top: 16px;
         padding-bottom: 16px;
     }
-    .event-text-left, .event-image-right {
+
+    .event-text-left,
+    .event-image-right {
         padding-bottom: 16px;
     }
-    .event-image-left, .event-image-right {
+
+    .event-image-left,
+    .event-image-right {
         padding-top: 16px;
     }
 }

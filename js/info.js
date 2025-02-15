@@ -18,76 +18,67 @@ const execMembers = [];
 
 // ADD/REMOVE EXEC MEMBERS BELOW
 execMembers.push(new ExecMember(
-    "Alison", 
-    "Zheng",
-    "Co-President",
-    "any pronouns",
-    "Sept 2022",
-    "agzheng",
-    true
-));
-execMembers.push(new ExecMember(
-    "Joseph",
-    "Hsu",
-    "Co-President",
+    "May", 
+    "Sonoda",
+    "President",
     "he/him",
-    "Sept 2020",
-    "josephhs",
-    true
+    "Sept 2023",
+    "maysonod",
+    false
 ));
 execMembers.push(new ExecMember(
-    "Stephen",
-    "Chien",
+    "Koharu",
+    "Matsuki",
     "Vice President of Internal Affairs",
-    "he/him",
-    "Sept 2022",
-    "shchien",
-    true
+    "she/her",
+    "Sept 2023",
+    "kmatsuki",
+    false
 ));
 execMembers.push(new ExecMember(
-    "Hanna",
-    "Luo",
+    "Nami",
+    "Numoto",
+    "Vice President of External Affairs",
+    "she/her",
+    "Sept 2021",
+    "mnumoto",
+    false
+));
+execMembers.push(new ExecMember(
+    "Sulli",
+    "Yatabe",
     "Design Chair",
     "she/her",
-    "Sept 2020",
-    "yihanl",
-    true
+    "Sept 2022",
+    "eyatabe",
+    false
 ));
 execMembers.push(new ExecMember(
-    "Stanley",
-    "Duong",
-    "Fundraising Co-Chair",
+    "Richard",
+    "Sbaschnig",
+    "Cultural Chair",
     "he/him",
     "Sept 2022",
-    "slduong",
-    true
+    "rsbaschn",
+    false
 ));
 execMembers.push(new ExecMember(
-    "Nami", 
-    "Numoto",
+    "Tzen-Chuen", 
+    "Ng",
     "Fundraising Co-Chair", 
-    "she/her", 
+    "he/him", 
+    "Sept 2023", 
+    "tzenchun", 
+    false
+));
+execMembers.push(new ExecMember(
+    "Taiyo", 
+    "De Jong", 
+    "Fundraising Co-Chair", 
+    "he/him", 
     "Sept 2021", 
-    "mnumoto", 
-    true
-));
-execMembers.push(new ExecMember(
-    "Dillon", 
-    "Shelton", 
-    "Cultural Co-Chair", 
-    "he/him", 
-    "Sept 2023", 
-    "dillonsh", 
-    true
-));
-execMembers.push(new ExecMember(
-    "May", 
-    "Sonoda", 
-    "Cultural Co-Chair", 
-    "he/him", 
-    "Sept 2023", 
-    "maysonod", 
-    true
+    "tdejong", 
+    false
 ));
 
 
