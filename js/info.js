@@ -24,7 +24,7 @@ execMembers.push(new ExecMember(
     "he/him",
     "Sept 2023",
     "maysonod",
-    false
+    true
 ));
 execMembers.push(new ExecMember(
     "Koharu",
@@ -33,7 +33,7 @@ execMembers.push(new ExecMember(
     "she/her",
     "Sept 2023",
     "kmatsuki",
-    false
+    true
 ));
 execMembers.push(new ExecMember(
     "Nami",
@@ -42,7 +42,7 @@ execMembers.push(new ExecMember(
     "she/her",
     "Sept 2021",
     "mnumoto",
-    false
+    true
 ));
 execMembers.push(new ExecMember(
     "Sulli",
@@ -60,7 +60,7 @@ execMembers.push(new ExecMember(
     "he/him",
     "Sept 2022",
     "rsbaschn",
-    false
+    true
 ));
 execMembers.push(new ExecMember(
     "Tzen-Chuen", 
@@ -69,7 +69,7 @@ execMembers.push(new ExecMember(
     "he/him", 
     "Sept 2023", 
     "tzenchun", 
-    false
+    true
 ));
 execMembers.push(new ExecMember(
     "Taiyo", 
@@ -78,7 +78,7 @@ execMembers.push(new ExecMember(
     "he/him", 
     "Sept 2021", 
     "tdejong", 
-    false
+    true
 ));
 
 
