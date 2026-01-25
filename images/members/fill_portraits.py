@@ -8,7 +8,7 @@ TEMPLATE_FILE = "blank.png"
 PORTRAITS_FOLDER = "input_portraits"
 OUTPUT_FOLDER = "finished_templates"
 
-# YOUR RAZOR-TIGHT COLOR RANGE
+#COLOR RANGE
 lower_purple = np.array([117, 80, 145]) 
 upper_purple = np.array([121, 255, 255])
 
