@@ -18,66 +18,66 @@ const execMembers = [];
 
 // ADD/REMOVE EXEC MEMBERS BELOW
 execMembers.push(new ExecMember(
-    "May", 
-    "Sonoda",
-    "President",
+    "Soma",
+    "Narita",
+    "Co-President",
     "he/him",
-    "Sept 2023",
-    "maysonod",
+    "Sept 2024",
+    "snarita",
     true
 ));
 execMembers.push(new ExecMember(
     "Koharu",
     "Matsuki",
-    "Vice President of Internal Affairs",
+    "Co-President",
     "she/her",
     "Sept 2023",
     "kmatsuki",
     true
 ));
 execMembers.push(new ExecMember(
-    "Nami",
-    "Numoto",
-    "Vice President of External Affairs",
-    "she/her",
-    "Sept 2021",
-    "mnumoto",
-    true
-));
-execMembers.push(new ExecMember(
-    "Sulli",
-    "Yatabe",
-    "Design Chair",
-    "she/her",
-    "Sept 2022",
-    "eyatabe",
-    true
-));
-execMembers.push(new ExecMember(
-    "Richard",
-    "Sbaschnig",
+    "May", 
+    "Sonoda",
     "Cultural Chair",
     "he/him",
-    "Sept 2022",
-    "rsbaschn",
+    "Sept 2023",
+    "maysonod",
     true
 ));
 execMembers.push(new ExecMember(
-    "Tzen-Chuen", 
-    "Ng",
-    "Fundraising Co-Chair", 
-    "he/him", 
-    "Sept 2023", 
-    "tzenchun", 
+    "Mia",
+    "Manton",
+    "Vice President",
+    "she/her",
+    "Sept 2024",
+    "mmanton",
     true
 ));
 execMembers.push(new ExecMember(
-    "Taiyo", 
-    "De Jong", 
+    "Taiga",
+    "Nishida",
+    "Fundraising Co-Chair",
+    "he/him",
+    "Sept 2024",
+    "tnishida",
+    true
+));
+execMembers.push(new ExecMember(
+    "Harrison", 
+    "Lee",
     "Fundraising Co-Chair", 
     "he/him", 
-    "Sept 2021", 
-    "tdejong", 
+    "Sept 2024", 
+    "harrisol", 
+    true
+));
+execMembers.push(new ExecMember(
+    "MyAnh", 
+    "Hisaeda", 
+    "Design Chair", 
+    "she/her", 
+    "Sept 2024", 
+    "mhisaeda", 
     true
 ));
 
